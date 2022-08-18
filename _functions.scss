@@ -1,0 +1,14 @@
+@function shade($color, $percentage) {
+  @return mix(black, $color, $percentage);
+}
+@function tint($color, $percentage) {
+  @return mix(white, $color, $percentage);
+}
+@function contrast($color) {
+  @if (red($color) * 0.299 + green($color) * 0.587 + blue($color) * 0.114) >186
+  {
+    @return #000000;
+  } @else {
+    @return #ffffff;
+  }
+}
