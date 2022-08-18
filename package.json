@@ -1,0 +1,23 @@
+{
+  "name": "primevue-sass-themes",
+  "version": "1.0.0",
+  "description": "Primevue themes as scss files, easy to customize with variables",
+  "author": "Riad Hachemane",
+  "license": "MIT",
+  "keywords": [
+    "primevue",
+    "vue",
+    "themes",
+    "theme",
+    "sass",
+    "scss"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Riadz/primevue-sass-themes.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Riadz/primevue-sass-themes/issues"
+  },
+  "homepage": "https://github.com/Riadz/primevue-sass-themes"
+}
